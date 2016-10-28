@@ -1,0 +1,5 @@
+--Html.text <- view "Alan")
+--Html.button [] [Html.text "click"]
+elm-make Main.elm --warn
+elm-reactor
+elm-repl
